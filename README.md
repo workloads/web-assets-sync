@@ -39,6 +39,7 @@ For more information, including detailed usage guidelines, see the [Terraform do
 |------|-------------|------|:--------:|
 | asset_paths | Sync-eligible Path Objects. | <pre>object({<br>    assets = object({<br>      extensions  = string<br>      local_path  = string<br>      remote_path = optional(string)<br>    }),<br><br>    minecraft_mods = object({<br>      extensions  = string<br>      local_path  = string<br>      remote_path = optional(string)<br>    })<br><br>    minecraft_worlds = object({<br>      extensions  = string<br>      local_path  = string<br>      remote_path = optional(string)<br>    })<br>  })</pre> | no |
 | file_extension_regex | Regular Expression to match File Extensions. | `string` | no |
+| modstxt_file_name | Name of the per-modset `mods.txt` file. | `string` | no |
 | s3_storage_class | Storage Class of S3 Object. | `string` | no |
 | tfe_organization | Terraform Cloud Organization. | `string` | no |
 | tfe_workspace_assets | Terraform Cloud Workspace for `web-assets`. | `string` | no |
@@ -51,7 +52,7 @@ For more information, including detailed usage guidelines, see the [Terraform do
 | aws_console_url | AWS Console URL. |
 | eligible_files | List of Sync-Eligible Assets. |
 | minecraft_mod_urls | URLs of Minecraft Mods. |
-| minecraft_modstxt_url | URL of Minecraft `mods.txt` File. |
+| minecraft_modstxt_urls | URL of Minecraft `mods.txt` Files. |
 | minecraft_world_urls | URLs of Minecraft Worlds. |
 <!-- END_TF_DOCS -->
 
