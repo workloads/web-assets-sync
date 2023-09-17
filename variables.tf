@@ -27,6 +27,8 @@ variable "asset_paths" {
       local_path = "../assets/exported/"
     }
 
+    # Terraform will consider subdirectories in this path as separate sets of mods
+    # and will lifecycle manage a per-set `mods.txt` file accordingly
     minecraft_mods = {
       extensions  = "**/*.{jar,zip}"
       local_path  = "../minecraft-mods/"
@@ -45,6 +47,12 @@ variable "file_extension_regex" {
   type        = string
   description = "Regular Expression to match File Extensions."
   default     = "[^.]+$"
+}
+
+variable "modstxt_file_name" {
+  type        = string
+  description = "Name of the per-modset `mods.txt` file."
+  default     = "mods.txt"
 }
 
 variable "s3_storage_class" {

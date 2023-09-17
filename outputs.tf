@@ -16,9 +16,9 @@ output "eligible_files" {
   value       = local.eligible_files
 }
 
-output "minecraft_modstxt_url" {
-  description = "URL of Minecraft `mods.txt` File."
-  value       = local.minecraft_modstxt_url
+output "minecraft_modstxt_urls" {
+  description = "URL of Minecraft `mods.txt` Files."
+  value       = local.minecraft_modstxt_urls
 }
 
 output "minecraft_mod_urls" {
