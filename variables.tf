@@ -74,7 +74,7 @@ variable "tfe_workspace_assets" {
 }
 
 locals {
-  # list of eligible files, based on path and file extension(s)
+  # list of eligible files, based on path and file extensions
   eligible_files = {
     # get keys of eligible files, and map them to their respective filesets
     # see https://developer.hashicorp.com/terraform/language/functions/keys
