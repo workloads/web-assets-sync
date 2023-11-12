@@ -45,7 +45,7 @@ locals {
     # see https://developer.hashicorp.com/terraform/language/functions/basename
     for setIndex, setValue in local.minecraft_modset_paths : basename(local.minecraft_modset_paths[setIndex]) => [
       # see https://developer.hashicorp.com/terraform/language/functions/startswith
-      for fileIndex, fileValue in aws_s3_object.minecraft_mods : "${local.base_url}/${fileValue.id}" if startswith(fileValue.id, local.minecraft_modset_paths[setIndex])
+      for fileIndex, fileValue in aws_s3_object.minecraft_mods : "${local.base_url}/${replace(fileValue.id, "+", "%2B")}" if startswith(fileValue.id, local.minecraft_modset_paths[setIndex])
     ]
   }
 }

@@ -30,7 +30,7 @@ variable "asset_paths" {
     # Terraform will consider subdirectories in this path as separate sets of mods
     # and will lifecycle manage a per-set `mods.txt` file accordingly
     minecraft_mods = {
-      extensions  = "**/*.{jar,zip}"
+      extensions  = "**/*.{jar}"
       local_path  = "../minecraft-mods/"
       remote_path = "minecraft/mods"
     }
