@@ -17,7 +17,7 @@
 
 ## Requirements
 
-- HashiCorp Terraform `1.5.x` or [newer](https://developer.hashicorp.com/packer/downloads)
+- HashiCorp Terraform `1.6.x` or [newer](https://developer.hashicorp.com/packer/downloads)
 - file-system acccess to public asset exports in `../assets/export`
 - file-system acccess to public Minecraft mods `../minecraft-mods`
 - file-system acccess to public Minecraft Worlds `../minecraft-worlds`
