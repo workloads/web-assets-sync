@@ -1,6 +1,6 @@
 # Terraform Cloud Workspace `web-assets-sync`
 
-> This directory manages uploads of Web-accessible Assets for [@workloads](https://github.com/workloads).
+> This repository manages uploads of web-accessible Assets for [@workloads](https://github.com/workloads).
 
 ## Table of Contents
 
@@ -11,20 +11,20 @@
   * [Usage](#usage)
     * [Inputs](#inputs)
     * [Outputs](#outputs)
-  * [Author Information](#author-information)
+  * [Contributors](#contributors)
   * [License](#license)
 <!-- TOC -->
 
 ## Requirements
 
-- HashiCorp Terraform `1.6.x` or [newer](https://developer.hashicorp.com/packer/downloads)
-- file-system acccess to public asset exports in `../assets/export`
-- file-system acccess to public Minecraft mods `../minecraft-mods`
-- file-system acccess to public Minecraft Worlds `../minecraft-worlds`
+- HashiCorp Terraform `1.6.x` or [newer](https://developer.hashicorp.com/terraform/downloads)
+- file-system access to public asset exports in `../assets/export`
+- file-system access to public Minecraft mods `../minecraft-mods`
+- file-system access to public Minecraft Worlds `../minecraft-worlds`
 
 Optional, and only needed for documentation generation:
 
-- `terraform-docs` `0.16.0` or [newer](https://terraform-docs.io/user-guide/installation/)
+- `terraform-docs` `0.17.0` or [newer](https://terraform-docs.io/user-guide/installation/)
 
 ## Usage
 
