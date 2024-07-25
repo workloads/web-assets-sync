@@ -1,4 +1,4 @@
-# Terraform Cloud Workspace `web-assets-sync`
+# HCP Terraform Workspace `web-assets-sync`
 
 > This repository manages uploads of web-accessible Assets for [@workloads](https://github.com/workloads).
 
