@@ -19,14 +19,14 @@
 
 ## Requirements
 
-- HashiCorp Terraform `1.6.x` or [newer](https://developer.hashicorp.com/terraform/downloads)
+- HashiCorp Terraform `1.9.x` or [newer](https://developer.hashicorp.com/terraform/downloads)
 - file-system access to public asset exports in `../assets/export`
 - file-system access to public Minecraft mods `../minecraft-mods`
 - file-system access to public Minecraft Worlds `../minecraft-worlds`
 
 Optional, and only needed for documentation generation:
 
-- `terraform-docs` `0.17.0` or [newer](https://terraform-docs.io/user-guide/installation/)
+- `terraform-docs` `0.18.0` or [newer](https://terraform-docs.io/user-guide/installation/)
 
 ## Usage
 
