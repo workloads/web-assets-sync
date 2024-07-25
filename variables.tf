@@ -63,13 +63,13 @@ variable "s3_storage_class" {
 
 variable "tfe_organization" {
   type        = string
-  description = "Terraform Cloud Organization."
+  description = "HCP Terraform Organization."
   default     = "workloads"
 }
 
 variable "tfe_workspace_assets" {
   type        = string
-  description = "Terraform Cloud Workspace for `web-assets`."
+  description = "HCP Terraform Workspace for `web-assets`."
   default     = "web-assets"
 }
 

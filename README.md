@@ -43,8 +43,8 @@ For more information, including detailed usage guidelines, see the [Terraform do
 | file_extension_regex | Regular Expression to match File Extensions. | `string` | no |
 | modstxt_file_name | Name of the per-modset `mods.txt` file. | `string` | no |
 | s3_storage_class | Storage Class of S3 Object. | `string` | no |
-| tfe_organization | Terraform Cloud Organization. | `string` | no |
-| tfe_workspace_assets | Terraform Cloud Workspace for `web-assets`. | `string` | no |
+| tfe_organization | HCP Terraform Organization. | `string` | no |
+| tfe_workspace_assets | HCP Terraform Workspace for `web-assets`. | `string` | no |
 
 ### Outputs
 
